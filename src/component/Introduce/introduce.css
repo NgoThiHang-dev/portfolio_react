@@ -1,0 +1,177 @@
+.intro {
+  display: flex;
+  height: 90vh;
+  /* margin-top: 7rem; */
+  align-items: center;
+}
+
+.intro-left {
+  display: flex;
+  position: relative;
+  flex: 1;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.intro-name {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.intro-name > :nth-child(1) {
+  color: var(--black);
+  font-weight: bold;
+  font-size: 3rem;
+}
+
+.intro-name > :nth-child(2) {
+  color: var(--orange);
+  font-weight: bold;
+  font-size: 3rem;
+}
+
+.intro-name > :nth-child(3) {
+  color: var(--gray);
+  font-size: 14px;
+  font-weight: 100;
+  margin-top: 10px;
+}
+
+.introduce-button {
+  width: 6rem;
+  height: 2rem;
+}
+
+.intro-icons a {
+  margin-right: 1.2rem;
+}
+
+.intro-icons i > * {
+  transform: scale(0.5);
+}
+
+.intro-icons i > *:hover {
+  cursor: pointer;
+}
+
+.intro-icons i {
+  color: var(--orange);
+  margin-top: 3rem;
+}
+
+.intro-right {
+  flex: 1;
+  position: relative;
+  background: #ff6b6b;
+  display: flex;
+  align-items: center;
+}
+
+.intro-right > * {
+  position: absolute;
+  z-index: 1;
+}
+
+.intro-right > :nth-child(1) {
+  transform: scale(0.89);
+  /* left: -2%; */
+
+  /* left: -15%;
+  top: -9%; */
+}
+
+.intro-right > :nth-child(2) {
+  transform: scale(0.72);
+  /* top: -4.6rem;
+  transform: scale(0.67);
+  left: -3rem; */
+}
+
+.intro-right > :nth-child(3) {
+  transform: scale(1.4);
+  left: 28%;
+  /* transform: scale(1.4);
+  left: 28%; */
+}
+
+.intro-right > :nth-child(4) {
+  transform: scale(0.62);
+  margin-top: -25rem;
+  left: -24%;
+  border-radius: 50%;
+  padding: 0;
+  /* transform: scale(0.62);
+  top: -12%;
+  left: -24%;
+  border-radius: 50%;
+  padding: 0; */
+}
+
+.intro-web {
+  margin-top: -22rem;
+  left: 56%;
+}
+
+.intro-design {
+  margin-top: 20.5rem;
+  left: 6%;
+}
+
+.blur-pink {
+  position: absolute;
+  width: 22rem;
+  height: 14rem;
+  border-radius: 50%;
+  background: #edd0ff;
+  z-index: -9;
+  margin-top: -30rem;
+  left: 60%;
+  filter: blur(72px);
+}
+
+.blur-blue {
+  position: absolute;
+  width: 21rem;
+  height: 14rem;
+  top: 12rem;
+  left: -4rem;
+  background: #c1f5ff;
+  z-index: -9;
+  filter: blur(72px);
+  border-radius: 50%;
+}
+
+/* .intro-web {
+  top: -4%;
+  left: 68%;
+}
+
+.intro-design {
+  left: 3rem;
+  top: 18rem;
+}
+
+.blur-pink {
+  position: absolute;
+  width: 22rem;
+  height: 14rem;
+  border-radius: 50%;
+  background: #edd0ff;
+  z-index: -9;
+  top: -18%;
+  left: 56%;
+  filter: blur(72px);
+}
+
+.blur-blue {
+  position: absolute;
+  width: 21rem;
+  height: 14rem;
+  top: 17rem;
+  left: -4rem;
+  background: #c1f5ff;
+  z-index: -9;
+  filter: blur(72px);
+  border-radius: 50%;
+} */
