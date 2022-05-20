@@ -175,3 +175,14 @@
   filter: blur(72px);
   border-radius: 50%;
 } */
+
+@media screen and (max-width: 480px) {
+  .intro {
+    flex-direction: column;
+    height: 64rem;
+    margin-top: 7rem;
+  }
+  .intro-right {
+    display: none;
+  }
+}

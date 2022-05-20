@@ -1,0 +1,36 @@
+.footer {
+  display: flex;
+  align-items: center;
+  margin: -0.5rem -3.5rem;
+  position: relative;
+  margin-top: -7rem;
+  height: 70vh;
+}
+
+.footer-text-content {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 10rem;
+  gap: 4rem;
+  color: white;
+}
+
+.footer-icons a {
+  margin-right: 1.2rem;
+}
+
+.footer-icons i > * {
+  transform: scale(0.5);
+}
+
+.footer-icons i > *:hover {
+  cursor: pointer;
+}
+
+.footer-icons i {
+  color: #fff;
+}
